@@ -3,61 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Unsung Heroines</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            margin: 20px;
-        }
-        .heroine {
-            border: 1px solid #ddd;
-            padding: 10px;
-            margin-bottom: 20px;
-            display: flex;
-            align-items: flex-start;
-        }
-        .heroine img {
-            max-width: 150px;
-            margin-right: 20px;
-        }
-        .heroine h2 {
-            margin-top: 0;
-        }
-    </style>
+    <title>The Unsung Heroines - Weekly Feature</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>The Unsung Heroines</h1>
-    <div id="heroines-container">
-        </div>
-
-    <script>
-        fetch('unsung_heroines_data.json')
-            .then(response => response.json())
-            .then(data => {
-                const container = document.getElementById('heroines-container');
-                data.forEach(heroine => {
-                    if (heroine && heroine.title && heroine.extract) { //check for valid data.
-                        const heroineDiv = document.createElement('div');
-                        heroineDiv.classList.add('heroine');
-
-                        let imageHtml = '';
-                        if (heroine.image) {
-                            imageHtml = `<img src="${heroine.image}" alt="${heroine.title}">`;
-                        }
-
-                        heroineDiv.innerHTML = `
-                            ${imageHtml}
-                            <div>
-                                <h2>${heroine.title}</h2>
-                                <p>${heroine.extract}</p>
-                                <a href="${heroine.full_url}" target="_blank">Read more on Wikipedia</a>
-                            </div>
-                        `;
-                        container.appendChild(heroineDiv);
-                    }
-                });
-            })
-            .catch(error => console.error('Error loading data:', error));
-    </script>
+    <header>
+        <h1>The Unsung Heroines</h1>
+        <p>Celebrating Remarkable Women in History</p>
+    </header>
+    <main id="heroine-feature">
+        <div id="heroine-content">
+            </div>
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>
