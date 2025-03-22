@@ -69,7 +69,7 @@ for category_title in unsung_heroines_categories:
     if women_titles:
         for title in women_titles:
             woman_data = get_unsung_heroine_data(title)
-            if woman_data:
+            if woman_data and not title.startswith(('Category:', 'List of', 'Index of', 'Timeline of', 'Women in', 'WISE Campaign', 'European Platform')): #simple way to filter out non person pages.
                 all_unsung_heroines_data.append(woman_data)
             time.sleep(2)  # Respectful delay.
     else:
