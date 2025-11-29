@@ -1,31 +1,82 @@
+:root {
+    --bg-color: #f4f4f4;
+    --text-color: #333;
+    --header-bg: #5c6bc0;
+    --header-text: white;
+    --card-bg: white;
+    --link-color: #5c6bc0;
+    --font-family: 'Arial', sans-serif;
+}
+
+body.dark-theme {
+    --bg-color: #121212;
+    --text-color: #e0e0e0;
+    --header-bg: #3949ab;
+    --header-text: #e0e0e0;
+    --card-bg: #1e1e1e;
+    --link-color: #8c9eff;
+}
+
+body.dyslexic-font {
+    --font-family: 'OpenDyslexic', sans-serif;
+}
+
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: var(--font-family);
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
 }
 
 header {
-    background-color: #5c6bc0;
-    color: white;
+    background-color: var(--header-bg);
+    color: var(--header-text);
     text-align: center;
     padding: 2em 0;
+    position: relative;
+}
+
+.controls {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    display: flex;
+    gap: 0.5em;
+}
+
+.btn-toggle {
+    background: rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    color: var(--header-text);
+    padding: 0.5em 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: inherit;
+}
+
+.btn-toggle:hover,
+.btn-toggle:focus {
+    background: rgba(255, 255, 255, 0.4);
+    outline: 2px solid white;
 }
 
 main {
     max-width: 800px;
     margin: 2em auto;
-    background-color: white;
+    background-color: var(--card-bg);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+    transition: background-color 0.3s;
 }
 
 #heroine-content {
     padding: 2em;
     display: grid;
-    grid-template-columns: 1fr; /* Stack on small screens */
+    grid-template-columns: 1fr;
+    /* Stack on small screens */
     grid-gap: 1em;
 }
 
@@ -37,12 +88,12 @@ main {
 }
 
 #heroine-content h2 {
-    color: #5c6bc0;
+    color: var(--link-color);
     margin-bottom: 0.5em;
 }
 
 #heroine-content a {
-    color: #5c6bc0;
+    color: var(--link-color);
     text-decoration: none;
     font-weight: bold;
 }
@@ -53,7 +104,8 @@ main {
 
 @media (min-width: 600px) {
     #heroine-content {
-        grid-template-columns: 1fr 1fr; /* Side-by-side on larger screens */
+        grid-template-columns: 1fr 1fr;
+        /* Side-by-side on larger screens */
     }
 
     #heroine-content img {
