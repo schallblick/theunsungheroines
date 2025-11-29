@@ -3,22 +3,45 @@ fetch('unsung_heroines_data.json')
     .then(data => {
         const container = document.getElementById('heroine-content');
         const today = new Date();
-        const weekNumber = Math.floor(today.getTime() / (7 * 24 * 60 * 60 * 1000)); // Calculate week number
+        const weekNumber = Math.floor(today.getTime() / (7 * 24 * 60 * 60 * 1000));
 
-        const featuredHeroine = data[weekNumber % data.length]; // Select heroine based on week number
+        const featuredHeroine = data[weekNumber % data.length];
 
-        if (featuredHeroine && featuredHeroine.title && featuredHeroine.extract) {
+        if (featuredHeroine && featuredHeroine.name) {
             let imageHtml = '';
             if (featuredHeroine.image) {
-                imageHtml = `<img src="${featuredHeroine.image}" alt="${featuredHeroine.title}">`;
+                const imageCredit = featuredHeroine.image_credit || 'Image source: ' + (featuredHeroine.sources?.[0]?.name || 'Unknown');
+                imageHtml = `
+                    <div class="heroine-image">
+                        <img src="${featuredHeroine.image}" alt="${featuredHeroine.name}">
+                        <p class="image-credit">${imageCredit}</p>
+                    </div>
+                `;
             }
+
+            // Build sources HTML
+            let sourcesHtml = '';
+            if (featuredHeroine.sources && featuredHeroine.sources.length > 0) {
+                sourcesHtml = '<div class="sources"><h3>Sources</h3><ul>';
+                featuredHeroine.sources.forEach(source => {
+                    sourcesHtml += `<li><a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.name}</a> (accessed ${source.accessed})</li>`;
+                });
+                sourcesHtml += '</ul></div>';
+            }
+
+            // Get biography from various possible fields
+            const biography = featuredHeroine.biography || featuredHeroine.extract || featuredHeroine.description || 'No biography available.';
 
             container.innerHTML = `
                 ${imageHtml}
-                <div>
-                    <h2>${featuredHeroine.title}</h2>
-                    <p>${featuredHeroine.extract}</p>
-                    <a href="${featuredHeroine.full_url}" target="_blank" aria-label="Read more about ${featuredHeroine.title} on Wikipedia">Read more on Wikipedia</a>
+                <div class="heroine-info">
+                    <h2>${featuredHeroine.name}</h2>
+                    ${featuredHeroine.birth_date || featuredHeroine.death_date ?
+                    `<p class="dates">${featuredHeroine.birth_date || '?'} - ${featuredHeroine.death_date || 'present'}</p>` : ''}
+                    ${featuredHeroine.fields && featuredHeroine.fields.length > 0 ?
+                    `<p class="fields"><strong>Fields:</strong> ${featuredHeroine.fields.join(', ')}</p>` : ''}
+                    <p class="biography">${biography}</p>
+                    ${sourcesHtml}
                 </div>
             `;
         } else {
