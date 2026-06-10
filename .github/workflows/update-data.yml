@@ -1,0 +1,110 @@
+name: Update Heroines Data
+
+on:
+  # Weekly: Nobel + merge only — fast, reliable
+  schedule:
+    - cron: '0 6 * * 1'   # Every Monday at 06:00 UTC
+
+  # Monthly: full scrape from all sources — runs on the 1st of each month
+  # A separate job below handles this via a day-of-month check.
+
+  # Manual trigger so you can kick it off any time from the Actions tab
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 'Scrape mode'
+        required: false
+        default: 'weekly'
+        type: choice
+        options:
+          - weekly
+          - full
+
+jobs:
+  # ── Weekly job: Nobel Prize API + merge ─────────────────────────────────
+  update-weekly:
+    name: Weekly Nobel update
+    runs-on: ubuntu-latest
+    # Skip on the 1st of the month (full job runs instead) unless manually triggered
+    if: |
+      github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'weekly' ||
+      (github.event_name == 'schedule' && !startsWith(github.event.schedule, '0 6 1 '))
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run Nobel scraper
+        run: python nobel_scraper.py
+
+      - name: Merge Nobel data into main dataset
+        run: |
+          python - <<'EOF'
+          import json
+          from data_merger import DataMerger
+
+          with open('unsung_heroines_data.json', encoding='utf-8') as f:
+              existing = json.load(f)
+          with open('nobel_heroines.json', encoding='utf-8') as f:
+              nobel = json.load(f)
+
+          merger = DataMerger()
+          merged = merger.merge_datasets(existing, nobel)
+          merger.save_to_json('unsung_heroines_data.json')
+
+          images = sum(1 for w in merged if w.get('image'))
+          print(f"Merged dataset: {len(merged)} entries, {images} with images")
+          EOF
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add unsung_heroines_data.json nobel_heroines.json
+          git diff --cached --quiet || git commit -m "chore: weekly Nobel data refresh [skip ci]"
+          git push
+
+  # ── Monthly job: full scrape from all sources ────────────────────────────
+  update-full:
+    name: Monthly full scrape
+    runs-on: ubuntu-latest
+    # Run on the 1st of each month (schedule fires daily at 06:00, we filter here)
+    # Also runs when manually triggered with mode=full
+    if: |
+      github.event_name == 'workflow_dispatch' && github.event.inputs.mode == 'full' ||
+      (github.event_name == 'schedule' && startsWith(github.event.schedule, '0 6 1 '))
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run full enhanced scraper
+        # Generous timeout — full scrape takes 30-60 min
+        timeout-minutes: 90
+        run: python enhanced_scraper.py
+
+      - name: Commit and push if data changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add unsung_heroines_data.json nobel_heroines.json wikidata_heroines.json wikipedia_heroines.json
+          git diff --cached --quiet || git commit -m "chore: monthly full data refresh [skip ci]"
+          git push

@@ -1,86 +1,119 @@
+// ── Data loading ──────────────────────────────────────────────────────────
 fetch('unsung_heroines_data.json')
-    .then(response => response.json())
+    .then(r => r.json())
     .then(data => {
         const container = document.getElementById('heroine-content');
-        const today = new Date();
-        const weekNumber = Math.floor(today.getTime() / (7 * 24 * 60 * 60 * 1000));
+        const weekNumber = Math.floor(Date.now() / (7 * 24 * 60 * 60 * 1000));
+        const heroine = data[weekNumber % data.length];
 
-        const featuredHeroine = data[weekNumber % data.length];
-
-        if (featuredHeroine && featuredHeroine.name) {
-            let imageHtml = '';
-            if (featuredHeroine.image) {
-                const imageCredit = featuredHeroine.image_credit || 'Image source: ' + (featuredHeroine.sources?.[0]?.name || 'Unknown');
-                imageHtml = `
-                    <div class="heroine-image">
-                        <img src="${featuredHeroine.image}" alt="${featuredHeroine.name}">
-                        <p class="image-credit">${imageCredit}</p>
-                    </div>
-                `;
-            }
-
-            // Build sources HTML
-            let sourcesHtml = '';
-            if (featuredHeroine.sources && featuredHeroine.sources.length > 0) {
-                sourcesHtml = '<div class="sources"><h3>Sources</h3><ul>';
-                featuredHeroine.sources.forEach(source => {
-                    sourcesHtml += `<li><a href="${source.url}" target="_blank" rel="noopener noreferrer">${source.name}</a> (accessed ${source.accessed})</li>`;
-                });
-                sourcesHtml += '</ul></div>';
-            }
-
-            // Get biography from various possible fields
-            const biography = featuredHeroine.biography || featuredHeroine.extract || featuredHeroine.description || 'No biography available.';
-
-            container.innerHTML = `
-                ${imageHtml}
-                <div class="heroine-info">
-                    <h2>${featuredHeroine.name}</h2>
-                    ${featuredHeroine.birth_date || featuredHeroine.death_date ?
-                    `<p class="dates">${featuredHeroine.birth_date || '?'} - ${featuredHeroine.death_date || 'present'}</p>` : ''}
-                    ${featuredHeroine.fields && featuredHeroine.fields.length > 0 ?
-                    `<p class="fields"><strong>Fields:</strong> ${featuredHeroine.fields.join(', ')}</p>` : ''}
-                    <p class="biography">${biography}</p>
-                    ${sourcesHtml}
-                </div>
-            `;
-        } else {
-            container.innerHTML = '<p>No featured heroine this week.</p>';
+        if (!heroine || !heroine.name) {
+            container.innerHTML = '<p class="state-message">No featured heroine this week.</p>';
+            return;
         }
+
+        container.innerHTML = buildCard(heroine);
     })
-    .catch(error => console.error('Error loading data:', error));
-
-// Theme and Font Toggles
-document.addEventListener('DOMContentLoaded', () => {
-    const themeToggle = document.getElementById('theme-toggle');
-    const fontToggle = document.getElementById('font-toggle');
-    const body = document.body;
-
-    // Load saved preferences
-    if (localStorage.getItem('theme') === 'dark') {
-        body.classList.add('dark-theme');
-    }
-    if (localStorage.getItem('font') === 'dyslexic') {
-        body.classList.add('dyslexic-font');
-    }
-
-    // Theme Toggle Listener
-    themeToggle.addEventListener('click', () => {
-        body.classList.toggle('dark-theme');
-        if (body.classList.contains('dark-theme')) {
-            localStorage.setItem('theme', 'dark');
-        } else {
-            localStorage.setItem('theme', 'light');
-        }
+    .catch(() => {
+        document.getElementById('heroine-content').innerHTML =
+            '<p class="state-message">Could not load data. Please try again later.</p>';
     });
 
-    // Font Toggle Listener
-    fontToggle.addEventListener('click', () => {
+// ── Card builder ──────────────────────────────────────────────────────────
+function buildCard(h) {
+    return `
+      <div class="heroine-card">
+        ${buildPortrait(h)}
+        <div class="heroine-body">
+          ${buildHeader(h)}
+          ${buildChips(h)}
+          ${buildBiography(h)}
+          ${buildSources(h)}
+        </div>
+      </div>`;
+}
+
+function buildPortrait(h) {
+    if (h.image) {
+        const credit = h.image_credit || '';
+        return `
+          <div class="heroine-portrait">
+            <img src="${h.image}" alt="Portrait of ${h.name}" loading="lazy">
+            ${credit ? `<p class="image-credit">${credit}</p>` : ''}
+          </div>`;
+    }
+    // No image — show initials placeholder
+    const initials = h.name
+        .split(' ')
+        .filter(Boolean)
+        .slice(0, 2)
+        .map(w => w[0].toUpperCase())
+        .join('');
+    return `
+      <div class="heroine-portrait no-image">
+        <div class="heroine-initials" aria-hidden="true">${initials}</div>
+      </div>`;
+}
+
+function buildHeader(h) {
+    const dates = (h.birth_date || h.death_date)
+        ? `<p class="heroine-dates">${h.birth_date || '?'} – ${h.death_date || 'present'}</p>`
+        : '';
+    return `
+      <div>
+        <p class="heroine-label">Featured Heroine</p>
+        <h2 class="heroine-name">${h.name}</h2>
+        ${dates}
+      </div>`;
+}
+
+function buildChips(h) {
+    if (!h.fields || !h.fields.length) return '';
+    const chips = h.fields
+        .map(f => `<span class="chip">${f}</span>`)
+        .join('');
+    return `<div class="field-chips">${chips}</div>`;
+}
+
+function buildBiography(h) {
+    const raw = h.biography || h.extract || h.description || 'No biography available.';
+    // Convert newlines to paragraphs for clean HTML rendering
+    const paras = raw
+        .split(/\n{2,}/)
+        .map(p => p.replace(/\n/g, ' ').trim())
+        .filter(Boolean)
+        .map(p => `<p>${p}</p>`)
+        .join('');
+    return `<div class="biography">${paras || `<p>${raw}</p>`}</div>`;
+}
+
+function buildSources(h) {
+    if (!h.sources || !h.sources.length) return '';
+    const items = h.sources
+        .map(s => `<li><a href="${s.url}" target="_blank" rel="noopener noreferrer">${s.name}</a></li>`)
+        .join('');
+    return `
+      <div class="sources">
+        <hr class="heroine-divider">
+        <p class="sources-label">Sources</p>
+        <ul class="sources-list">${items}</ul>
+      </div>`;
+}
+
+// ── Accessibility toggles ─────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', () => {
+    const body = document.body;
+
+    // Restore saved preferences
+    if (localStorage.getItem('theme') === 'dark')     body.classList.add('dark-theme');
+    if (localStorage.getItem('font')  === 'dyslexic') body.classList.add('dyslexic-font');
+
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+        body.classList.toggle('dark-theme');
+        localStorage.setItem('theme', body.classList.contains('dark-theme') ? 'dark' : 'light');
+    });
+
+    document.getElementById('font-toggle').addEventListener('click', () => {
         body.classList.toggle('dyslexic-font');
-        if (body.classList.contains('dyslexic-font')) {
-            localStorage.setItem('font', 'dyslexic');
-        } else {
-            localStorage.setItem('font', 'default');
-        }
+        localStorage.setItem('font', body.classList.contains('dyslexic-font') ? 'dyslexic' : 'default');
     });
 });

@@ -14,28 +14,41 @@ class WikidataScraper:
     ENDPOINT = "https://query.wikidata.org/sparql"
     USER_AGENT = "TheUnsungHeroines/2.0 (Educational Project; https://github.com/yourusername/theunsungheroines)"
     
-    # SPARQL query for women in science, medicine, activism, etc.
+    # Broader SPARQL query: science, arts, activism, politics, literature, music.
+    # Only returns entries that have a portrait image (wdt:P18) and an English
+    # Wikipedia article, which dramatically improves data quality.
     QUERY_TEMPLATE = """
-    SELECT DISTINCT ?person ?personLabel ?birthDate ?deathDate ?occupationLabel 
-                    ?description ?image ?wikidataUrl
+    SELECT DISTINCT ?person ?personLabel ?birthDate ?deathDate ?occupationLabel
+                    ?description ?image ?wikipediaUrl ?wikidataUrl
     WHERE {{
       ?person wdt:P31 wd:Q5 .              # instance of human
       ?person wdt:P21 wd:Q6581072 .        # gender: female
       ?person wdt:P106 ?occupation .       # has occupation
-      
-      # Filter for relevant occupations
+      ?person wdt:P18 ?image .             # must have a portrait image
+
+      # English Wikipedia article required (ensures good biography available)
+      ?article schema:about ?person ;
+               schema:inLanguage "en" ;
+               schema:isPartOf <https://en.wikipedia.org/> .
+      BIND(STR(?article) AS ?wikipediaUrl)
+
+      # Occupations: science, medicine, arts, activism, politics, literature, music
       VALUES ?occupation {{
-        wd:Q901 wd:Q11063 wd:Q593644 wd:Q169470 wd:Q82955 
+        wd:Q901    wd:Q11063  wd:Q593644  wd:Q169470  wd:Q82955
         wd:Q1650915 wd:Q864503 wd:Q1622272 wd:Q205375
+        wd:Q36180  wd:Q482980 wd:Q33999   wd:Q483501  wd:Q36834
+        wd:Q177220 wd:Q170790 wd:Q1234099 wd:Q15627169
+        wd:Q4220920 wd:Q1281618 wd:Q11569986 wd:Q18939491
       }}
-      
+
       OPTIONAL {{ ?person wdt:P569 ?birthDate . }}
       OPTIONAL {{ ?person wdt:P570 ?deathDate . }}
-      OPTIONAL {{ ?person wdt:P18 ?image . }}
-      OPTIONAL {{ ?person schema:description ?description . FILTER(LANG(?description) = "en") }}
-      
-      BIND(CONCAT("https://www.wikidata.org/wiki/", SUBSTR(STR(?person), 32)) AS ?wikidataUrl)
-      
+      OPTIONAL {{ ?person schema:description ?description .
+                  FILTER(LANG(?description) = "en") }}
+
+      BIND(CONCAT("https://www.wikidata.org/wiki/",
+                  SUBSTR(STR(?person), 32)) AS ?wikidataUrl)
+
       SERVICE wikibase:label {{ bd:serviceParam wikibase:language "en". }}
     }}
     LIMIT {limit}
@@ -62,20 +75,45 @@ class WikidataScraper:
             print(f"Error querying Wikidata: {e}")
             return None
     
+    @staticmethod
+    def _thumbnail_url(commons_url, width=400):
+        """Convert a Wikimedia Commons FilePath URL to a sized thumbnail URL."""
+        if not commons_url:
+            return None
+        # Already a thumbnail or external image — return as-is
+        if 'Special:FilePath' not in commons_url:
+            return commons_url
+        filename = commons_url.split('Special:FilePath/')[-1]
+        return (
+            f"https://commons.wikimedia.org/w/index.php"
+            f"?title=Special:FilePath/{filename}&width={width}"
+        )
+
     def parse_results(self, results):
         """Parse SPARQL results into structured data."""
         if not results or 'results' not in results:
             return []
-        
+
         women_data = []
         bindings = results['results']['bindings']
-        
+
         for binding in bindings:
             try:
-                # Extract Wikidata ID from URI
                 wikidata_uri = binding.get('person', {}).get('value', '')
                 wikidata_id = wikidata_uri.split('/')[-1] if wikidata_uri else None
-                
+
+                raw_image = binding.get('image', {}).get('value')
+                image_url = self._thumbnail_url(raw_image)
+
+                wikidata_url = binding.get('wikidataUrl', {}).get('value', '')
+                wikipedia_url = binding.get('wikipediaUrl', {}).get('value', '')
+
+                sources = [{'name': 'Wikidata', 'url': wikidata_url,
+                            'accessed': datetime.now().strftime('%Y-%m-%d')}]
+                if wikipedia_url:
+                    sources.append({'name': 'Wikipedia', 'url': wikipedia_url,
+                                    'accessed': datetime.now().strftime('%Y-%m-%d')})
+
                 woman_data = {
                     'id': wikidata_id,
                     'name': binding.get('personLabel', {}).get('value', 'Unknown'),
@@ -83,21 +121,18 @@ class WikidataScraper:
                     'death_date': binding.get('deathDate', {}).get('value', '').split('T')[0],
                     'description': binding.get('description', {}).get('value', ''),
                     'occupation': binding.get('occupationLabel', {}).get('value', ''),
-                    'image': binding.get('image', {}).get('value'),
-                    'sources': [{
-                        'name': 'Wikidata',
-                        'url': binding.get('wikidataUrl', {}).get('value', ''),
-                        'accessed': datetime.now().strftime('%Y-%m-%d')
-                    }],
+                    'image': image_url,
+                    'image_credit': 'Image: Wikimedia Commons' if image_url else '',
+                    'sources': sources,
                     'wikidata_id': wikidata_id,
-                    'last_updated': datetime.now().strftime('%Y-%m-%d')
+                    'last_updated': datetime.now().strftime('%Y-%m-%d'),
                 }
-                
+
                 women_data.append(woman_data)
             except Exception as e:
                 print(f"Error parsing result: {e}")
                 continue
-        
+
         return women_data
     
     def scrape(self, total_limit=500):
