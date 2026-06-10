@@ -65,6 +65,10 @@ jobs:
           print(f"Merged dataset: {len(merged)} entries, {images} with images")
           EOF
 
+      - name: Enrich thin biographies and backfill images
+        timeout-minutes: 30
+        run: python enrich_bios.py
+
       - name: Commit and push if data changed
         run: |
           git config user.name  "github-actions[bot]"
@@ -97,9 +101,12 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run full enhanced scraper
-        # Generous timeout — full scrape takes 30-60 min
         timeout-minutes: 90
         run: python enhanced_scraper.py
+
+      - name: Enrich thin biographies and backfill images
+        timeout-minutes: 60
+        run: python enrich_bios.py
 
       - name: Commit and push if data changed
         run: |
