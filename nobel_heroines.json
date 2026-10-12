@@ -3,7 +3,7 @@
     "name": "Ada E. Yonath",
     "birth_date": "",
     "death_date": "",
-    "biography": "Ada Esther Yonath (Hebrew: עדה יונת, pronounced [ˈada joˈnat]; née Lifshitz; 22 June 1939 – 31 August 2026) was an Israeli crystallographer and Nobel laureate in chemistry, best known for her pioneering work on the structure of ribosomes. She was the director of the Helen and Milton A. Kimmelman Center for Biomolecular Structure and Assembly of the Weizmann Institute of Science.\nIn 2009, Yonath received the Nobel Prize in Chemistry along with Venkatraman Ramakrishnan and Thomas A. Steitz for her studies on the structure and function of the ribosome, becoming the first Israeli woman to win the Nobel Prize.",
+    "biography": "Ada Esther Yonath (Hebrew: עדה יונת, pronounced [ˈada joˈnat]; née Lifshitz; 22 June 1939 – 31 August 2026) was an Israeli crystallographer and Nobel laureate in chemistry, best known for her pioneering work on the structure of ribosomes. She was the director of the Helen and Milton A. Kimmelman Center for Biomolecular Structure and Assembly of the Weizmann Institute of Science.\nIn 2009, Yonath received the Nobel Prize in Chemistry along with Venkatraman Ramakrishnan and Thomas A. Steitz for her studies on the structure and function of the ribosome, becoming the first Israeli woman to win the Nobel Prize.\n\n",
     "fields": [
       "Chemistry (Nobel 2009)"
     ],
@@ -13,21 +13,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/843",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (2009)",
         "url": "https://www.nobelprize.org/prizes/chemistry/2009/yonath/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Ada_Yonath",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q7426",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Alice Munro",
@@ -43,27 +43,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/892",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2013)",
         "url": "https://www.nobelprize.org/prizes/literature/2013/munro/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Alice_Munro",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q234819",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Alva Myrdal",
     "birth_date": "",
     "death_date": "",
-    "biography": "Alva Myrdal ( MUR-dahl, MEER-, Swedish: [ˈǎlːva ˈmy̌ːɖɑːl]; née Reimer; 31 January 1902 – 1 February 1986) was a Swedish sociologist, diplomat and politician. She was a prominent leader of the disarmament movement. She, along with Alfonso García Robles, received the Nobel Peace Prize in 1982. She married Gunnar Myrdal in 1924; he received the Nobel Memorial Prize in Economic Sciences in 1974, making them the fourth ever married couple to have won Nobel Prizes, and the first to win independent of each other (versus a shared Nobel Prize by scientist spouses).",
+    "biography": "Alva Myrdal ( MUR-dahl, MEER-, Swedish: [ˈǎlːva ˈmy̌ːɖɑːl]; née Reimer; 31 January 1902 – 1 February 1986) was a Swedish sociologist, diplomat and politician. She was a prominent leader of the disarmament movement. She, along with Alfonso García Robles, received the Nobel Peace Prize in 1982. She married Gunnar Myrdal in 1924; he received the Nobel Memorial Prize in Economic Sciences in 1974, making them the fourth ever married couple to have won Nobel Prizes, and the first to win independent of each other (versus a shared Nobel Prize by scientist spouses).\n\n",
     "fields": [
       "Peace & Activism (Nobel 1982)"
     ],
@@ -73,27 +73,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/543",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1982)",
         "url": "https://www.nobelprize.org/prizes/peace/1982/myrdal/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Alva_Myrdal",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q152437",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Andrea Ghez",
     "birth_date": "",
     "death_date": "",
-    "biography": "Andrea Mia Ghez (born June 16, 1965) is an American astrophysicist. She shared the 2020 Nobel Prize in Physics with Reinhard Genzel \"for the discovery of a supermassive compact object at the centre of our galaxy\".  This object is generally recognized to be a black hole.\nHer research focuses on the center of the Milky Way galaxy. She is a professor in the Department of Physics and Astronomy and the Lauren B. Leichtman & Arthur E. Levine chair in Astrophysics, at the University of California, Los Angeles. With Judith Love Cohen, she is the author of the book You Can Be a Woman Astronomer.",
+    "biography": "Andrea Mia Ghez (born June 16, 1965) is an American astrophysicist. She shared the 2020 Nobel Prize in Physics with Reinhard Genzel \"for the discovery of a supermassive compact object at the centre of our galaxy\".  This object is generally recognized to be a black hole.\nHer research focuses on the center of the Milky Way galaxy. She is a professor in the Department of Physics and Astronomy and the Lauren B. Leichtman & Arthur E. Levine chair in Astrophysics, at the University of California, Los Angeles. With Judith Love Cohen, she is the author of the book You Can Be a Woman Astronomer.\n\n",
     "fields": [
       "Physics (Nobel 2020)"
     ],
@@ -103,21 +103,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/990",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physics (2020)",
         "url": "https://www.nobelprize.org/prizes/physics/2020/ghez/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Andrea_M._Ghez",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q493956",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
+  },
+  {
+    "name": "Anne Carson",
+    "birth_date": "",
+    "death_date": "",
+    "biography": "Anne Patricia Carson (born June 21, 1950) is a Canadian classicist, writer, and academic. In 2026, she was awarded the Nobel Prize in Literature, “for her bold and inventive oeuvre that, in playful dialogue with the classical tradition, has created new forms for contemporary literature”. \nBorn in Toronto, she graduated from the University of Toronto and starting in 1979 became a professor of classics, comparative literature, and creative writing at several universities. She has taught at the University of Calgary, Princeton University, McGill University, University of Michigan, and New York University. Carson has written more than twenty books, including collections of essays and poetry, as well as translations of ancient Greek tragedies.\nShe has been awarded Guggenheim and MacArthur Fellowships, has won the Lannan Literary Award, two Griffin Poetry Prizes, the T. S. Eliot Prize, the Princess of Asturias Award, the Governor General's Award for English-language poetry, and the PEN/Nabokov Award, and was appointed a Member of the Order of Canada in 2005 for her contribution to Canadian letters.",
+    "fields": [
+      "Literature (Nobel 2026)"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Anne_Carson%2C_poet%2C_at_the_2024_National_Book_Awards.jpg/500px-Anne_Carson%2C_poet%2C_at_the_2024_National_Book_Awards.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_credit": "Image: Wikipedia / Wikimedia Commons",
+    "sources": [
+      {
+        "name": "Nobel Prize API",
+        "url": "https://api.nobelprize.org/2.1/laureate/1067",
+        "accessed": "2026-10-12"
+      },
+      {
+        "name": "Nobel Prize in Literature (2026)",
+        "url": "https://www.nobelprize.org/prizes/literature/2026/carson/facts/",
+        "accessed": "2026-10-12"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Anne_Carson",
+        "accessed": "2026-10-12"
+      }
+    ],
+    "wikidata_id": "Q2633699",
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Anne L’Huillier",
@@ -133,27 +163,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1028",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physics (2023)",
         "url": "https://www.nobelprize.org/prizes/physics/2023/lhuillier/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Anne_L%27Huillier",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q565544",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Annie Ernaux",
     "birth_date": "",
     "death_date": "",
-    "biography": "Annie Thérèse Blanche Ernaux (French: [ɛʁno]; née Duchesne [dyʃɛn]; born 1 September 1940) is a French writer who was awarded the 2022 Nobel Prize in Literature \"for the courage and clinical acuity with which she uncovers the roots, estrangements, and collective restraints of personal memory\". Her literary work, mostly autobiographical, maintains close links with sociology.",
+    "biography": "Annie Thérèse Blanche Ernaux (French: [ɛʁno]; née Duchesne [dyʃɛn]; born 1 September 1940) is a French writer who was awarded the 2022 Nobel Prize in Literature \"for the courage and clinical acuity with which she uncovers the roots, estrangements, and collective restraints of personal memory\". Her literary work, mostly autobiographical, maintains close links with sociology.\n\n",
     "fields": [
       "Literature (Nobel 2022)"
     ],
@@ -163,21 +193,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1017",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2022)",
         "url": "https://www.nobelprize.org/prizes/literature/2022/ernaux/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Annie_Ernaux",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q1153825",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Aung San Suu Kyi",
@@ -193,27 +223,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/553",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1991)",
         "url": "https://www.nobelprize.org/prizes/peace/1991/kyi/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Aung_San_Suu_Kyi",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q36740",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Barbara McClintock",
     "birth_date": "",
     "death_date": "",
-    "biography": "Barbara McClintock (June 16, 1902 – September 2, 1992) was an American cytogeneticist who was awarded the 1983 Nobel Prize in Physiology or Medicine. McClintock received her PhD in botany from Cornell University in 1927. There, she started her career as the leader of the development of maize cytogenetics, the focus of her research for the rest of her life. From the late 1920s, McClintock studied chromosomes and how they change during reproduction in maize. She developed the technique for visualizing maize chromosomes and used microscopic analysis to demonstrate many fundamental genetic ideas. One of those ideas was the notion of genetic recombination by crossing-over during meiosis—a mechanism by which chromosomes exchange information. She demonstrated the role of the telomere and centromere, regions of the chromosome that are important in the conservation of genetic information. She was recognized as among the best in the field, awarded prestigious fellowships, and elected a member of the National Academy of Sciences in 1944.\nDuring the 1940s and 1950s, McClintock discovered transposons and used it to demonstrate that genes are responsible for turning physical characteristics on and off. She developed theories to explain the suppression and expression of genetic information from one generation of maize plants to the next. Due to skepticism of her research and its implications, she stopped publishing her data in 1953.\nLater, she made an extensive study of the cytogenetics and ethnobotany of maize races from South America. McClintock's research became well understood in the 1960s and 1970s, as other scientists confirmed the mechanisms of genetic change and protein expression that she had demonstrated in her maize research in the 1940s and 1950s. Awards and recognition for her contributions to the field followed, including the Nobel Prize in Physiology or Medicine, awarded to her in 1983 for the discovery of genetic transposition; as of 2025, she remains the only woman who has received an unshared Nobel Prize in that category.",
+    "biography": "Barbara McClintock (June 16, 1902 – September 2, 1992) was an American cytogeneticist who was awarded the 1983 Nobel Prize in Physiology or Medicine. McClintock received her PhD in botany from Cornell University in 1927. There, she started her career as the leader of the development of maize cytogenetics, the focus of her research for the rest of her life. From the late 1920s, McClintock studied chromosomes and how they change during reproduction in maize. She developed the technique for visualizing maize chromosomes and used microscopic analysis to demonstrate many fundamental genetic ideas. One of those ideas was the notion of genetic recombination by crossing-over during meiosis—a mechanism by which chromosomes exchange information. She demonstrated the role of the telomere and centromere, regions of the chromosome that are important in the conservation of genetic information. She was recognized as among the best in the field, awarded prestigious fellowships, and elected a member of the National Academy of Sciences in 1944.\nDuring the 1940s and 1950s, McClintock discovered transposons and used it to demonstrate that genes are responsible for turning physical characteristics on and off. She developed theories to explain the suppression and expression of genetic information from one generation of maize plants to the next. Due to skepticism of her research and its implications, she stopped publishing her data in 1953.\nLater, she made an extensive study of the cytogenetics and ethnobotany of maize races from South America. McClintock's research became well understood in the 1960s and 1970s, as other scientists confirmed the mechanisms of genetic change and protein expression that she had demonstrated in her maize research in the 1940s and 1950s. Awards and recognition for her contributions to the field followed, including the Nobel Prize in Physiology or Medicine, awarded to her in 1983 for the discovery of genetic transposition; as of 2025, she remains the only woman who has received an unshared Nobel Prize in that category.\n\n",
     "fields": [
       "Physiology or Medicine (Nobel 1983)"
     ],
@@ -223,27 +253,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/428",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (1983)",
         "url": "https://www.nobelprize.org/prizes/medicine/1983/mcclintock/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Barbara_McClintock",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q199654",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Bertha von Suttner",
     "birth_date": "",
     "death_date": "",
-    "biography": "Baroness Bertha Sophie Felicitas von Suttner (Austrian German: [ˈbɛrtaː fɔn ˈzʊtnɐ]; née Countess Kinsky von Wchinitz und Tettau; 9 June 1843 – 21 June 1914) was an Austrian noblewoman, pacifist and novelist. In 1905, she became the second female Nobel laureate (after Marie Curie in 1903), the first woman to be awarded the Nobel Peace Prize, and the first Austrian laureate.",
+    "biography": "Baroness Bertha Sophie Felicitas von Suttner (Austrian German: [ˈbɛrtaː fɔn ˈzʊtnɐ]; née Countess Kinsky von Wchinitz und Tettau; 9 June 1843 – 21 June 1914) was an Austrian noblewoman, pacifist and novelist. In 1905, she became the second female Nobel laureate (after Marie Curie in 1903), the first woman to be awarded the Nobel Peace Prize, and the first Austrian laureate.\n\n",
     "fields": [
       "Peace & Activism (Nobel 1905)"
     ],
@@ -253,21 +283,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/468",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1905)",
         "url": "https://www.nobelprize.org/prizes/peace/1905/suttner/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Bertha_von_Suttner",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q18456",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Betty Williams",
@@ -283,51 +313,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/535",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1976)",
         "url": "https://www.nobelprize.org/prizes/peace/1976/williams/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Betty_Williams_(Nobel_laureate)",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q157690",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Carol W. Greider",
     "birth_date": "",
     "death_date": "",
-    "biography": "Nobel Prize in Physiology or Medicine (2009): for the discovery of how chromosomes are protected by telomeres and the enzyme telomerase",
+    "biography": "Carolyn Widney Greider (born April 15, 1961) is an American molecular biologist and Nobel laureate. She is a Distinguished Professor of Molecular, Cell, and Developmental Biology at the University of California, Santa Cruz.\nGreider discovered the enzyme telomerase in 1984, while she was a graduate student of Elizabeth Blackburn at the University of California, Berkeley. Greider pioneered research on the structure of telomeres, the ends of the chromosomes. She was awarded the 2009 Nobel Prize for Physiology or Medicine, along with Blackburn and Jack W. Szostak, for their discovery that telomeres are protected from progressive shortening by the enzyme telomerase.",
     "fields": [
       "Physiology or Medicine (Nobel 2009)"
     ],
-    "image": null,
-    "image_credit": "",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Carol_Greider_by_Chris_Michel_1s946948-11-23.jpg/500px-Carol_Greider_by_Chris_Michel_1s946948-11-23.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_credit": "Image: Wikipedia / Wikimedia Commons",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/836",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2009)",
         "url": "https://www.nobelprize.org/prizes/medicine/2009/greider/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Carol_W._Greider",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q26322",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Carolyn Bertozzi",
@@ -343,51 +373,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1015",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (2022)",
         "url": "https://www.nobelprize.org/prizes/chemistry/2022/bertozzi/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Carolyn_R._Bertozzi",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q7442",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Christiane Nüsslein-Volhard",
     "birth_date": "",
     "death_date": "",
-    "biography": "Christiane (Janni) Nüsslein-Volhard (German pronunciation: [kʁɪsˈti̯anə ˈnʏslaɪ̯n ˈfɔlˌhaʁt] ; born 20 October 1942) is a German developmental biologist and a 1995 Nobel Prize in Physiology or Medicine laureate. She is the only woman from Germany to have received a Nobel Prize in the sciences.\nNüsslein-Volhard earned her PhD in 1974 from the University of Tübingen, where she studied protein-DNA interaction.  She won the Albert Lasker Award for Basic Medical Research in 1991 and the Nobel Prize in Physiology or Medicine in 1995, together with Eric Wieschaus and Edward B. Lewis, for their research on the genetic control of embryonic development.",
+    "biography": "Nobel Prize in Physiology or Medicine (1995): for their discoveries concerning the genetic control of early embryonic development",
     "fields": [
       "Physiology or Medicine (Nobel 1995)"
     ],
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Christiane_N%C3%BCsslein-Volhard_mg_4372.jpg/500px-Christiane_N%C3%BCsslein-Volhard_mg_4372.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_credit": "Image: Wikipedia / Wikimedia Commons",
+    "image": null,
+    "image_credit": "",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/453",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (1995)",
         "url": "https://www.nobelprize.org/prizes/medicine/1995/nusslein-volhard/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Christiane_Nüsslein-Volhard",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q77174",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Claudia Goldin",
@@ -403,27 +433,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1034",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Economics (2023)",
         "url": "https://www.nobelprize.org/prizes/economic-sciences/2023/goldin/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Claudia_Goldin",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q1097475",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Donna Strickland",
     "birth_date": "",
     "death_date": "",
-    "biography": "Donna Theo Strickland (born May 27, 1959) is a Canadian optical physicist and pioneer in the field of pulsed lasers. She was awarded the Nobel Prize in Physics in 2018, together with Gérard Mourou, for the practical implementation of chirped pulse amplification. She is a professor at the University of Waterloo in Ontario, Canada.\nStrickland served as fellow, vice president, and president of Optica (formerly OSA), and is currently chair of its Presidential Advisory Committee. In 2018, she was listed as one of BBC's 100 Women. She has gone on to have the Natural Sciences and Engineering Research Council of Canada Prize being set in her name.\n\n",
+    "biography": "Donna Theo Strickland (born May 27, 1959) is a Canadian optical physicist and pioneer in the field of pulsed lasers. She was awarded the Nobel Prize in Physics in 2018, together with Gérard Mourou, for the practical implementation of chirped pulse amplification. She is a professor at the University of Waterloo in Ontario, Canada.\nStrickland served as fellow, vice president, and president of Optica (formerly OSA), and is currently chair of its Presidential Advisory Committee. In 2018, she was listed as one of BBC's 100 Women. She has gone on to have the Natural Sciences and Engineering Research Council of Canada Prize being set in her name.",
     "fields": [
       "Physics (Nobel 2018)"
     ],
@@ -433,21 +463,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/962",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physics (2018)",
         "url": "https://www.nobelprize.org/prizes/physics/2018/strickland/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Donna_Strickland",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q56855591",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Doris Lessing",
@@ -463,27 +493,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/817",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2007)",
         "url": "https://www.nobelprize.org/prizes/literature/2007/lessing/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Doris_Lessing",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q40874",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Dorothy Crowfoot Hodgkin",
     "birth_date": "",
     "death_date": "",
-    "biography": "Dorothy Mary Crowfoot Hodgkin (née Crowfoot; 12 May 1910 – 29 July 1994) was an English chemist who advanced the technique of X-ray crystallography to determine the structure of biomolecules, which became essential for structural biology. She received the 1964 Nobel Prize in Chemistry, and is the only British woman scientist to have been awarded a Nobel Prize.\nAmong her most influential discoveries are the confirmation of the structure of penicillin as previously surmised by Edward Abraham and Ernst Boris Chain; and mapping the structure of vitamin B12, for which in 1964 she became the third woman to win the Nobel Prize in Chemistry. Hodgkin also elucidated the structure of insulin in 1969 after 35 years of work.\nHodgkin used the name \"Dorothy Crowfoot\" until twelve years after marrying Thomas Lionel Hodgkin, when she began using \"Dorothy Crowfoot Hodgkin\". Hodgkin is referred to as \"Dorothy Hodgkin\" by the Royal Society (when referring to its sponsorship of the Dorothy Hodgkin fellowship), and by Somerville College. The National Archives of the United Kingdom refer to her as \"Dorothy Mary Crowfoot Hodgkin\". The case of her Nobel prize is inscribed 'Crowfoot Hodgkin'.",
+    "biography": "Dorothy Mary Crowfoot Hodgkin (née Crowfoot; 12 May 1910 – 29 July 1994) was an English chemist who advanced the technique of X-ray crystallography to determine the structure of biomolecules, which became essential for structural biology. She received the 1964 Nobel Prize in Chemistry, and is the only British woman scientist to have been awarded a Nobel Prize.\nAmong her most influential discoveries are the confirmation of the structure of penicillin as previously surmised by Edward Abraham and Ernst Boris Chain; and mapping the structure of vitamin B12, for which in 1964 she became the third woman to win the Nobel Prize in Chemistry. Hodgkin also elucidated the structure of insulin in 1969 after 35 years of work.\nHodgkin used the name \"Dorothy Crowfoot\" until twelve years after marrying Thomas Lionel Hodgkin, when she began using \"Dorothy Crowfoot Hodgkin\". Hodgkin is referred to as \"Dorothy Hodgkin\" by the Royal Society (when referring to its sponsorship of the Dorothy Hodgkin fellowship), and by Somerville College. The National Archives of the United Kingdom refer to her as \"Dorothy Mary Crowfoot Hodgkin\". The case of her Nobel prize is inscribed 'Crowfoot Hodgkin'.\n\n",
     "fields": [
       "Chemistry (Nobel 1964)"
     ],
@@ -493,21 +523,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/230",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (1964)",
         "url": "https://www.nobelprize.org/prizes/chemistry/1964/hodgkin/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Dorothy_Hodgkin",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q7487",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Elfriede Jelinek",
@@ -523,21 +553,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/782",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2004)",
         "url": "https://www.nobelprize.org/prizes/literature/2004/jelinek/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Elfriede_Jelinek",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q47243",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Elinor Ostrom",
@@ -553,21 +583,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/846",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Economics (2009)",
         "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Elinor_Ostrom",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q153761",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Elizabeth H. Blackburn",
@@ -583,21 +613,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/835",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2009)",
         "url": "https://www.nobelprize.org/prizes/medicine/2009/blackburn/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Elizabeth_Blackburn",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q26321",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Ellen Johnson Sirleaf",
@@ -613,27 +643,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/869",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2011)",
         "url": "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Ellen_Johnson_Sirleaf",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q43179",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Emily Greene Balch",
     "birth_date": "",
     "death_date": "",
-    "biography": "Emily Greene Balch (January 8, 1867 – January 9, 1961) was an American economist,  sociologist and pacifist. Balch combined an academic career at Wellesley College with a long-standing interest in social issues such as poverty, child labor, and immigration, as well as settlement work to uplift poor immigrants and reduce juvenile delinquency.\nShe moved into the peace movement at the start of World War I in 1914, and began collaborating with Jane Addams of Chicago. She became a central leader of the Women's International League for Peace and Freedom (WILPF) based in Switzerland, for which she won the Nobel Peace Prize in 1946, sharing the win with John Mott.",
+    "biography": "Emily Greene Balch (January 8, 1867 – January 9, 1961) was an American economist,  sociologist and pacifist. Balch combined an academic career at Wellesley College with a long-standing interest in social issues such as poverty, child labor, and immigration, as well as settlement work to uplift poor immigrants and reduce juvenile delinquency.\nShe moved into the peace movement at the start of World War I in 1914, and began collaborating with Jane Addams of Chicago. She became a central leader of the Women's International League for Peace and Freedom (WILPF) based in Switzerland, for which she won the Nobel Peace Prize in 1946, sharing the win with John Mott.\n\n",
     "fields": [
       "Peace & Activism (Nobel 1946)"
     ],
@@ -643,27 +673,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/506",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1946)",
         "url": "https://www.nobelprize.org/prizes/peace/1946/balch/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Emily_Greene_Balch",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q215139",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Emmanuelle Charpentier",
     "birth_date": "",
     "death_date": "",
-    "biography": "Emmanuelle Marie Charpentier (French pronunciation: [emanɥɛl maʁi ʃaʁpɑ̃tje]; born 11 December 1968) is a French academic, microbiologist, geneticist, and biochemist. She has served as a director at the Max Planck Institute for Infection Biology in Berlin since 2015. Three years later, she founded an independent research institute, the Max Planck Unit for the Science of Pathogens. In 2020, Charpentier and American biochemist Jennifer Doudna of the University of California, Berkeley, were awarded the Nobel Prize in Chemistry \"for the development of a method for genome editing\" (through CRISPR). This was the first science Nobel Prize ever won by two women only.\n\n",
+    "biography": "Emmanuelle Marie Charpentier (French pronunciation: [emanɥɛl maʁi ʃaʁpɑ̃tje]; born 11 December 1968) is a French academic, microbiologist, geneticist, and biochemist. She has served as a director at the Max Planck Institute for Infection Biology in Berlin since 2015. Three years later, she founded an independent research institute, the Max Planck Unit for the Science of Pathogens. In 2020, Charpentier and American biochemist Jennifer Doudna of the University of California, Berkeley, were awarded the Nobel Prize in Chemistry \"for the development of a method for genome editing\" (through CRISPR). This was the first science Nobel Prize ever won exclusively by two women.\n\n",
     "fields": [
       "Chemistry (Nobel 2020)"
     ],
@@ -673,51 +703,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/991",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (2020)",
         "url": "https://www.nobelprize.org/prizes/chemistry/2020/charpentier/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Emmanuelle_Charpentier",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q17280087",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Esther Duflo",
     "birth_date": "",
     "death_date": "",
-    "biography": "Esther Caroline Duflo, FBA (French: [ɛstɛʁ dyflo]; born 25 October 1972) is a French-American economist, and the Lemann Foundation Professor in Economics at the Department of Economics of the University of Zurich (UZH). In 2019, she was jointly awarded the Nobel Memorial Prize in Economic Sciences alongside her husband Abhijit Banerjee and Michael Kremer \"for their experimental approach to alleviating global poverty\".\nIn addition to her academic appointment, Duflo is the co-founder and co-director of the Abdul Latif Jameel Poverty Action Lab (J-PAL), an MIT-based research center promoting the use of randomized controlled trials in policy evaluation. As of 2020, more than 400 million people had been impacted by programs tested by J-PAL affiliated researchers. Since 2024, Duflo has also been the president of the Paris School of Economics alongside her appointment at MIT. In October 2025, the University of Zurich announced that Duflo and Banerjee would be joining the faculty of the UZH School of Business, Economics, and Informatics in July 2026.\nDuflo is a Research Associate of the National Bureau of Economic Research (NBER), a board member of the Bureau for Research and Economic Analysis of Development (BREAD), and the director of the development economics program of the Centre for Economic Policy Research. Her research focuses on the microeconomics of development and spans topics such as household behavior, education, financial inclusion, political economy, gender, and health. Prior to receiving the Nobel Memorial Prize in Economic Sciences, Duflo was awarded the Calvó-Armengol International Prize (2019), the Elaine Bennett Research Prize (2002) and the John Bates Clark Medal (2010) by the American Economic Association.\nTogether with Abhijit Banerjee, Duflo is the co-author of Poor Economics and Good Economics for Hard Times, published in April 2011 and November 2019, respectively. According to the Open Syllabus Project, Duflo is the seventh most frequently cited author on college syllabi for economics courses.",
+    "biography": "Nobel Prize in Economics (2019): for their experimental approach to alleviating global poverty",
     "fields": [
       "Economics (Nobel 2019)"
     ],
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Nobel_9_Dec_2019_Esther_Duflo_%28cropped%29.jpg/500px-Nobel_9_Dec_2019_Esther_Duflo_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_credit": "Image: Wikipedia / Wikimedia Commons",
+    "image": null,
+    "image_credit": "",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/983",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Economics (2019)",
         "url": "https://www.nobelprize.org/prizes/economic-sciences/2019/duflo/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Esther_Duflo",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q434509",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Frances H. Arnold",
@@ -733,21 +763,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/963",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (2018)",
         "url": "https://www.nobelprize.org/prizes/chemistry/2018/arnold/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Frances_Arnold",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q4273363",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Françoise Barré-Sinoussi",
@@ -763,21 +793,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/824",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2008)",
         "url": "https://www.nobelprize.org/prizes/medicine/2008/barre-sinoussi/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Françoise_Barré-Sinoussi",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q103844",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Gabriela Mistral",
@@ -793,21 +823,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/615",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1945)",
         "url": "https://www.nobelprize.org/prizes/literature/1945/mistral/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Gabriela_Mistral",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q80871",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Gertrude B. Elion",
@@ -823,21 +853,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/438",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (1988)",
         "url": "https://www.nobelprize.org/prizes/medicine/1988/elion/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Gertrude_B._Elion",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q35703",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Gerty Cori",
@@ -853,21 +883,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/344",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (1947)",
         "url": "https://www.nobelprize.org/prizes/medicine/1947/cori-gt/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Gerty_Cori",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q204733",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Grazia Deledda",
@@ -883,27 +913,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/597",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1926)",
         "url": "https://www.nobelprize.org/prizes/literature/1926/deledda/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Grazia_Deledda",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q7728",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Han Kang",
     "birth_date": "",
     "death_date": "",
-    "biography": "Han Kang (Korean: 한강; born 27 November 1970) is a South Korean writer. From 2007 to 2018, she taught creative writing at the Seoul Institute of the Arts. Han rose to international prominence for her novel The Vegetarian, which became the first Korean language novel to win the International Booker Prize for fiction in 2016. Han is the first Asian woman and Korean to be a recipient of the Nobel Prize in Literature, receiving the award in 2024 in recognition of her \"intense poetic prose that confronts historical traumas and exposes the fragility of human life\".\n\n",
+    "biography": "Han Kang (Korean: 한강; born 27 November 1970) is a South Korean writer. From 2007 to 2018, she taught creative writing at the Seoul Institute of the Arts. Han rose to international prominence for her novel The Vegetarian, which became the first Korean language novel to win the International Booker Prize for fiction in 2016. Han is the first Asian woman and Korean to be a recipient of the Nobel Prize in Literature, receiving the award in 2024 in recognition of her \"intense poetic prose that confronts historical traumas and exposes the fragility of human life\".",
     "fields": [
       "Literature (Nobel 2024)"
     ],
@@ -913,51 +943,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1042",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2024)",
         "url": "https://www.nobelprize.org/prizes/literature/2024/han/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Han_Kang",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q5646626",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Herta Müller",
     "birth_date": "",
     "death_date": "",
-    "biography": "Nobel Prize in Literature (2009): who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed",
+    "biography": "Herta Müller (German: [ˈhɛʁta ˈmʏlɐ] ; born 17 August 1953) is a Romanian-German novelist, poet, essayist and recipient of the 2009 Nobel Prize in Literature. She was born in Nițchidorf, Timiș County in Romania; her native languages are German and Romanian. Since the early 1990s, she has been internationally established, and her works have been translated into more than twenty languages.\nMüller is noted for her works depicting the effects of violence, cruelty and terror, usually in the setting of the Socialist Republic of Romania under the repressive Nicolae Ceaușescu regime which she has experienced herself. Many of her works are told from the viewpoint of the German minority in Romania and are also a depiction of the modern history of the Germans in the Banat and Transylvania. Her much acclaimed 2009 novel The Hunger Angel (Atemschaukel) portrays the deportation of Romania's German minority to Soviet Gulags during the Soviet occupation of Romania for use as German forced labour.\nMüller has received more than twenty awards to date, including the Kleist Prize (1994), the Aristeion Prize (1995), the International Dublin Literary Award (1998) and the Franz Werfel Human Rights Award (2009). On 8 October 2009, the Swedish Academy announced that she had been awarded the Nobel Prize in Literature, describing her as a woman \"who, with the concentration of poetry and the frankness of prose, depicts the landscape of the dispossessed\".",
     "fields": [
       "Literature (Nobel 2009)"
     ],
-    "image": null,
-    "image_credit": "",
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/91/Herta_M%C3%BCller_Brucknerhaus_Linz_2025_BHO-4188.jpg/500px-Herta_M%C3%BCller_Brucknerhaus_Linz_2025_BHO-4188.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_credit": "Image: Wikipedia / Wikimedia Commons",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/844",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2009)",
         "url": "https://www.nobelprize.org/prizes/literature/2009/muller/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Herta_Müller",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q38049",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Irène Joliot-Curie",
@@ -973,21 +1003,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/194",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (1935)",
         "url": "https://www.nobelprize.org/prizes/chemistry/1935/joliot-curie/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Irène_Joliot-Curie",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q7504",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Jane Addams",
@@ -1003,21 +1033,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/496",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1931)",
         "url": "https://www.nobelprize.org/prizes/peace/1931/addams/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Jane_Addams",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q180989",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Jennifer A. Doudna",
@@ -1033,27 +1063,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/992",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (2020)",
         "url": "https://www.nobelprize.org/prizes/chemistry/2020/doudna/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Jennifer_Doudna",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q56068",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Jody Williams",
     "birth_date": "",
     "death_date": "",
-    "biography": "Jody Williams (born October 9, 1950) is an American political activist known for her work in banning anti-personnel landmines, her defense of human rights (especially those of women), and her efforts to promote new understandings of security in today's world. She was awarded the Nobel Peace Prize in 1997 for her work toward the banning and clearing of anti-personnel mines.\n\n",
+    "biography": "Jody Williams (born October 9, 1950) is an American political activist known for her work in banning anti-personnel landmines, her defense of human rights (especially those of women), and her efforts to promote new understandings of security in today's world. She was awarded the Nobel Peace Prize in 1997 for her work toward the banning and clearing of anti-personnel mines.",
     "fields": [
       "Peace & Activism (Nobel 1997)"
     ],
@@ -1063,21 +1093,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/565",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1997)",
         "url": "https://www.nobelprize.org/prizes/peace/1997/williams/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Jody_Williams",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q211239",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Katalin Karikó",
@@ -1093,27 +1123,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1024",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2023)",
         "url": "https://www.nobelprize.org/prizes/medicine/2023/kariko/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Katalin_Karikó",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q88608397",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Leymah Gbowee",
     "birth_date": "",
     "death_date": "",
-    "biography": "Leymah Roberta Gbowee (born 1 February 1972) is a Liberian peace activist responsible for leading a women's non-violent peace movement, Women of Liberia Mass Action for Peace that helped bring an end to the Second Liberian Civil War in 2003. Her efforts to end the war, along with her collaborator Ellen Johnson Sirleaf, helped usher in a period of peace and enabled a free election in 2005 that Sirleaf won. Gbowee and Sirleaf, along with Tawakkul Karman, were awarded the 2011 Nobel Peace Prize \"for their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work.\"\n\n",
+    "biography": "Leymah Roberta Gbowee (born 1 February 1972) is a Liberian peace activist responsible for leading a women's non-violent peace movement, Women of Liberia Mass Action for Peace that helped bring an end to the Second Liberian Civil War in 2003. Her efforts to end the war, along with her collaborator Ellen Johnson Sirleaf, helped usher in a period of peace and enabled a free election in 2005 that Sirleaf won. Gbowee and Sirleaf, along with Tawakkul Karman, were awarded the 2011 Nobel Peace Prize \"for their non-violent struggle for the safety of women and for women's rights to full participation in peace-building work.\"",
     "fields": [
       "Peace & Activism (Nobel 2011)"
     ],
@@ -1123,21 +1153,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/870",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2011)",
         "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Leymah_Gbowee",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q107037",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Linda B. Buck",
@@ -1153,27 +1183,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/775",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2004)",
         "url": "https://www.nobelprize.org/prizes/medicine/2004/buck/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Linda_B._Buck",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q200136",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Louise Glück",
     "birth_date": "",
     "death_date": "",
-    "biography": "Louise Elisabeth Glück ( GLIK; April 22, 1943 – October 13, 2023) was an American poet and essayist. She won the 2020 Nobel Prize in Literature, whose judges praised \"her unmistakable poetic voice that with austere beauty makes individual existence universal\". Her other awards include the Pulitzer Prize, National Humanities Medal, National Book Award, National Book Critics Circle Award, and Bollingen Prize. From 2003 to 2004, she was Poet Laureate of the United States.\nGlück was born in New York City and raised on Long Island. She began to suffer from anorexia nervosa while in high school and later overcame the illness. She attended Sarah Lawrence College and Columbia University but did not obtain a degree. In addition to being an author, she taught poetry at several academic institutions.\nGlück is often described as an autobiographical poet; her work is known for its emotional intensity and for frequently drawing on mythology or nature imagery to meditate on personal experiences and modern life. Thematically, her poems have illuminated aspects of trauma, desire, and nature. In doing so, they have become known for frank expressions of sadness and isolation. Scholars have also focused on her construction of poetic personas and the relationship, in her poems, between autobiography and classical myth.\nGlück served as the Frederick Iseman Professor in the Practice of Poetry at Yale University and as a professor of English at Stanford University. She split her time between Cambridge, Massachusetts; Montpelier, Vermont; and Berkeley, California.\n\n",
+    "biography": "Louise Elisabeth Glück ( GLIK; April 22, 1943 – October 13, 2023) was an American poet and essayist. She won the 2020 Nobel Prize in Literature, whose judges praised \"her unmistakable poetic voice that with austere beauty makes individual existence universal\". Her other awards include the Pulitzer Prize, National Humanities Medal, National Book Award, National Book Critics Circle Award, and Bollingen Prize. From 2003 to 2004, she was Poet Laureate of the United States.\nGlück was born in New York City and raised on Long Island. She began to suffer from anorexia nervosa while in high school and later overcame the illness. She attended Sarah Lawrence College and Columbia University but did not obtain a degree. In addition to being an author, she taught poetry at several academic institutions.\nGlück is often described as an autobiographical poet; her work is known for its emotional intensity and for frequently drawing on mythology or nature imagery to meditate on personal experiences and modern life. Thematically, her poems have illuminated aspects of trauma, desire, and nature. In doing so, they have become known for frank expressions of sadness and isolation. Scholars have also focused on her construction of poetic personas and the relationship, in her poems, between autobiography and classical myth.\nGlück served as the Frederick Iseman Professor in the Practice of Poetry at Yale University and as a professor of English at Stanford University. She split her time between Cambridge, Massachusetts; Montpelier, Vermont; and Berkeley, California.",
     "fields": [
       "Literature (Nobel 2020)"
     ],
@@ -1183,27 +1213,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/993",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2020)",
         "url": "https://www.nobelprize.org/prizes/literature/2020/gluck/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Louise_Glück",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q2344210",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Mairead Corrigan",
     "birth_date": "",
     "death_date": "",
-    "biography": "Mairead Maguire (born 27 January 1944), also known as Mairead Corrigan Maguire and formerly as Mairéad Corrigan, is a peace activist from Northern Ireland. She co-founded, with Betty Williams and Ciaran McKeown, the Women for Peace, which later became the Community for Peace People, an organization dedicated to encouraging a peaceful resolution of the Troubles in Northern Ireland. Maguire and Williams were awarded the 1976 Nobel Peace Prize.\n\n",
+    "biography": "Mairead Maguire (born 27 January 1944), also known as Mairead Corrigan Maguire and formerly as Mairéad Corrigan, is a peace activist from Northern Ireland. She co-founded, with Betty Williams and Ciaran McKeown, the Women for Peace, which later became the Community for Peace People, an organization dedicated to encouraging a peaceful resolution of the Troubles in Northern Ireland. Maguire and Williams were awarded the 1976 Nobel Peace Prize.",
     "fields": [
       "Peace & Activism (Nobel 1976)"
     ],
@@ -1213,27 +1243,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/536",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1976)",
         "url": "https://www.nobelprize.org/prizes/peace/1976/corrigan/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Mairead_Maguire",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q157655",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Malala Yousafzai",
     "birth_date": "",
     "death_date": "",
-    "biography": "Malala Yousafzai (born 12 July 1997) is a Pakistani female education activist, and producer of film and television. She is the youngest Nobel Prize laureate in history, receiving the Peace Prize in 2014 at age 17, and is the second Pakistani and the only Pashtun to receive a Nobel Prize. Yousafzai is a human rights advocate for the education of women and children in her native district, Swat, where the Pakistani Taliban had at times banned girls from attending school. Her advocacy has grown into an international movement, and according to former prime minister Shahid Khaqan Abbasi, she has become Pakistan's \"most prominent citizen\".\nThe daughter of the education activist Ziauddin Yousafzai, she was born to a Yousafzai Pashtun family in Swat and was named after the Afghan folk heroine Malalai of Maiwand. Considering Bacha Khan, Barack Obama, and Benazir Bhutto as her role models, she was also inspired by her father's thoughts and humanitarian work. In early 2009, when she was 11, she wrote a blog under her pseudonym Gul Makai for the BBC Urdu to detail her life during the Taliban's occupation of Swat. The following summer, the journalist Adam B. Ellick made a New York Times documentary about her life as the Pakistan Armed Forces launched Operation Rah-e-Rast against the militants in Swat. In 2011, she received Pakistan's first National Youth Peace Prize. She interned for the Swat Relief Initiative, a foundation founded by Zebunisa Jilani, a princess of the Royal House of Swat which supports schools and clinics. She rose in prominence, giving interviews in print and on television, and was nominated for the International Children's Peace Prize by activist Desmond Tutu.\nOn 9 October 2012, while on a bus in Swat District after taking an exam, Yousafzai and two other girls were shot by a Taliban gunman in an assassination attempt targeting her for her activism; the gunman fled the scene. She was struck in the head by a bullet and remained unconscious and in critical condition at the Rawalpindi Institute of Cardiology, but her condition later improved enough for her to be transferred to the Queen Elizabeth Hospital in Birmingham, UK. The attempt on her life sparked an international outpouring of support. Deutsche Welle reported in January 2013 that she may have become \"the most famous teenager in the world\". Weeks after the attempted murder, a group of 50 leading Muslim clerics in Pakistan issued a fatwā against those who had tried to kill her. Governments, human rights organizations and feminist groups subsequently condemned the Tehrik-i-Taliban Pakistan. In response, the Taliban further denounced Yousafzai, indicating plans for a possible second assassination attempt which the Taliban felt was justified as a religious obligation. This sparked another international outcry.\nAfter her recovery, Yousafzai became a more prominent activist for the right to education. Based in Birmingham, she co-founded the Malala Fund, a non-profit organisation, with Shiza Shahid. In 2013, she co-authored I Am Malala, an international best seller. In 2013, she received the Sakharov Prize, and in 2014, she was the co-recipient of the 2014 Nobel Peace Prize with Kailash Satyarthi of India. Aged 17 at the time, she was the youngest-ever Nobel Prize laureate. In 2015, she was the subject of the Oscar-shortlisted documentary He Named Me Malala. In 2016, she was selected for the Forbes 30 Under 30 list in the Social Entrepreneurs category. In 2022, Forbes added her to the \"Hall of Fame\" Forbes 30 under 30 list. The 2013, 2014 and 2015 issues of Time magazine featured her as one of the most influential people globally. In 2017, she was awarded honorary Canadian citizenship and became the youngest person to address the House of Commons of Canada. Yousafzai completed her secondary school education at Edgbaston High School, Birmingham in England from 2013 to 2017. From there she won a place at Lady Margaret Hall, Oxford, and undertook three years' study for a Bachelor of Arts degree in Philosophy, Politics and Economics (PPE), graduating in 2020. She returned in 2023 to become the youngest ever Honorary Fellow at Linacre College, Oxford.\n\n",
+    "biography": "Malala Yousafzai (born 12 July 1997) is a Pakistani female education activist, and producer of film and television. She is the youngest Nobel Prize laureate in history, receiving the Peace Prize in 2014 at age 17, and is the second Pakistani and the only Pashtun to receive a Nobel Prize. Yousafzai is a human rights advocate for the education of women and children in her native district, Swat, where the Pakistani Taliban had at times banned girls from attending school. Her advocacy has grown into an international movement, and according to former prime minister Shahid Khaqan Abbasi, she has become Pakistan's \"most prominent citizen\".\nThe daughter of the education activist Ziauddin Yousafzai, she was born to a Yousafzai Pashtun family in Swat and was named after the Afghan folk heroine Malalai of Maiwand. Considering Bacha Khan, Barack Obama, and Benazir Bhutto as her role models, she was also inspired by her father's thoughts and humanitarian work. In early 2009, when she was 11, she wrote a blog under her pseudonym Gul Makai for the BBC Urdu to detail her life during the Taliban's occupation of Swat. The following summer, the journalist Adam B. Ellick made a New York Times documentary about her life as the Pakistan Armed Forces launched Operation Rah-e-Rast against the militants in Swat. In 2011, she received Pakistan's first National Youth Peace Prize. She interned for the Swat Relief Initiative, a foundation founded by Zebunisa Jilani, a princess of the Royal House of Swat which supports schools and clinics. She rose in prominence, giving interviews in print and on television, and was nominated for the International Children's Peace Prize by activist Desmond Tutu.\nOn 9 October 2012, while on a bus in Swat District after taking an exam, Yousafzai and two other girls were shot by a Taliban gunman in an assassination attempt targeting her for her activism; the gunman fled the scene. She was struck in the head by a bullet and remained unconscious and in critical condition at the Rawalpindi Institute of Cardiology, but her condition later improved enough for her to be transferred to the Queen Elizabeth Hospital in Birmingham, UK. The attempt on her life sparked an international outpouring of support. Deutsche Welle reported in January 2013 that she may have become \"the most famous teenager in the world\". Weeks after the attempted murder, a group of 50 leading Muslim clerics in Pakistan issued a fatwā against those who had tried to kill her. Governments, human rights organizations and feminist groups subsequently condemned the Tehrik-i-Taliban Pakistan. In response, the Taliban further denounced Yousafzai, indicating plans for a possible second assassination attempt which the Taliban felt was justified as a religious obligation. This sparked another international outcry.\nAfter her recovery, Yousafzai became a more prominent activist for the right to education. Based in Birmingham, she co-founded the Malala Fund, a non-profit organisation, with Shiza Shahid. In 2013, she co-authored I Am Malala, an international best seller. In 2013, she received the Sakharov Prize, and in 2014, she was the co-recipient of the 2014 Nobel Peace Prize with Kailash Satyarthi of India. Aged 17 at the time, she was the youngest-ever Nobel Prize laureate. In 2015, she was the subject of the Oscar-shortlisted documentary He Named Me Malala. In 2016, she was selected for the Forbes 30 Under 30 list in the Social Entrepreneurs category. In 2022, Forbes added her to the \"Hall of Fame\" Forbes 30 under 30 list. The 2013, 2014 and 2015 issues of Time magazine featured her as one of the most influential people globally. In 2017, she was awarded honorary Canadian citizenship and became the youngest person to address the House of Commons of Canada. Yousafzai completed her secondary school education at Edgbaston High School, Birmingham in England from 2013 to 2017. From there she won a place at Lady Margaret Hall, Oxford, and undertook three years' study for a Bachelor of Arts degree in Philosophy, Politics and Economics (PPE), graduating in 2020. She returned in 2023 to become the youngest ever Honorary Fellow at Linacre College, Oxford.",
     "fields": [
       "Peace & Activism (Nobel 2014)"
     ],
@@ -1243,21 +1273,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/914",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2014)",
         "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Malala_Yousafzai",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q32732",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Maria Corina Machado",
@@ -1273,21 +1303,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1057",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2025)",
         "url": "https://www.nobelprize.org/prizes/peace/2025/machado/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Maria_Corina_Machado",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q439564",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Maria Goeppert Mayer",
@@ -1303,51 +1333,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/79",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physics (1963)",
         "url": "https://www.nobelprize.org/prizes/physics/1963/mayer/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Maria_Goeppert-Mayer",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q57100",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Maria Ressa",
     "birth_date": "",
     "death_date": "",
-    "biography": "Maria Angelita Ressa (Tagalog pronunciation: [ˈɾesa]; née Delfin Aycardo; born October 2, 1963) is a Filipino and American journalist and Nobel Peace Prize laureate. She is the co-founder and CEO of Rappler. She previously spent nearly two decades working as a lead investigative reporter in Southeast Asia for CNN. She has been a distinguished fellow at Columbia University's new Institute of Global Politics since 2023 and a professor of professional practice in Columbia's School of International and Public Affairs since July 2024.\nRessa was born in Manila and raised in Toms River, New Jersey. She was included in Time's Person of the Year 2018 issue featuring a collection of journalists from around the world actively combatting fake news. On February 13, 2019, she was arrested by Philippine authorities for cyberlibel due to accusations that Rappler published a false news story concerning businessman Wilfredo Keng. On June 15, 2020, a court in Manila found her guilty of cyberlibel under the controversial Anti-Cybercrime law, a move condemned by human rights groups and journalists as an attack on press freedom. As a prominent critic of the then Philippine president Rodrigo Duterte, her arrest and conviction were seen by many in the opposition and the international community as a politically motivated act. Ressa is one of the 25 leading figures on the Information and Democracy Commission launched by Reporters Without Borders. She was awarded the 2021 Nobel Peace Prize jointly with Dmitry Muratov for \"their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace.\"\n\n",
+    "biography": "Nobel Prize in Peace & Activism (2021): for their efforts to safeguard freedom of expression, which is a precondition for democracy and lasting peace",
     "fields": [
       "Peace & Activism (Nobel 2021)"
     ],
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Serica_Trailblazers_2025_-_Maria_Ressa_01_cropped.jpg/500px-Serica_Trailblazers_2025_-_Maria_Ressa_01_cropped.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_credit": "Image: Wikipedia / Wikimedia Commons",
+    "image": null,
+    "image_credit": "",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1005",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2021)",
         "url": "https://www.nobelprize.org/prizes/peace/2021/ressa/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Maria_Ressa",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q6761526",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Marie Curie",
@@ -1364,26 +1394,26 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/6",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physics (1903)",
         "url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Chemistry (1911)",
         "url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Marie_Curie",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q7186",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Mary E. Brunkow",
@@ -1399,21 +1429,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1047",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2025)",
         "url": "https://www.nobelprize.org/prizes/medicine/2025/brunkow/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Mary_E._Brunkow",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q136445350",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "May-Britt Moser",
@@ -1429,21 +1459,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/904",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2014)",
         "url": "https://www.nobelprize.org/prizes/medicine/2014/may-britt-moser/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/May-Britt_Moser",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q6796222",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Mother Teresa",
@@ -1459,27 +1489,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/540",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1979)",
         "url": "https://www.nobelprize.org/prizes/peace/1979/teresa/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Mother_Teresa",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q30547",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Nadia Murad",
     "birth_date": "",
     "death_date": "",
-    "biography": "Nadia Murad Basee Taha (Kurdish: نادیە موراد بەسێ تەھا; Arabic: نادية مراد باسي طه; born 10 March 1993) is an Iraqi-born Yazidi human rights activist based in Germany. In 2014, during the Yazidi genocide by the Islamic State, she was abducted from her hometown of Kocho in Iraq. Much of her community was massacred. After losing most of her family, Murad was held as an Islamic State sex slave for three months, alongside thousands of other Yazidi women and girls.\nMurad is the founder of Nadia's Initiative, a non-profit organization dedicated to \"helping women and children victimized by genocide, mass atrocities, and human trafficking to heal and rebuild their lives and communities\". Its establishment was prompted by the Sinjar massacre.\nIn 2018, she and Congolese gynecologist Denis Mukwege were jointly awarded the Nobel Peace Prize for \"their efforts to end the use of sexual violence as a weapon of war and armed conflict.\" She is the first Iraqi and Yazidi to have been awarded a Nobel Peace Prize.\nIn 2016, Murad was appointed as the first-ever Goodwill Ambassador for the Dignity of Survivors of Human Trafficking for the United Nations Office on Drugs and Crime.\n\n",
+    "biography": "Nadia Murad Basee Taha (Kurdish: نادیە موراد بەسێ تەھا; Arabic: نادية مراد باسي طه; born 10 March 1993) is an Iraqi-born Yazidi human rights activist based in Germany. In 2014, during the Yazidi genocide by the Islamic State, she was abducted from her hometown of Kocho in Iraq. Much of her community was massacred. After losing most of her family, Murad was held as an Islamic State sex slave for three months, alongside thousands of other Yazidi women and girls.\nMurad is the founder of Nadia's Initiative, a non-profit organization dedicated to \"helping women and children victimized by genocide, mass atrocities, and human trafficking to heal and rebuild their lives and communities\". Its establishment was prompted by the Sinjar massacre.\nIn 2018, she and Congolese gynecologist Denis Mukwege were jointly awarded the Nobel Peace Prize for \"their efforts to end the use of sexual violence as a weapon of war and armed conflict.\" She is the first Iraqi and Yazidi to have been awarded a Nobel Peace Prize.\nIn 2016, Murad was appointed as the first-ever Goodwill Ambassador for the Dignity of Survivors of Human Trafficking for the United Nations Office on Drugs and Crime.",
     "fields": [
       "Peace & Activism (Nobel 2018)"
     ],
@@ -1489,27 +1519,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/967",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2018)",
         "url": "https://www.nobelprize.org/prizes/peace/2018/murad/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nadia_Murad",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q22007112",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Nadine Gordimer",
     "birth_date": "",
     "death_date": "",
-    "biography": "Nadine Gordimer (20 November 1923 – 13 July 2014) was a South African writer and political activist. She received the Nobel Prize in Literature in 1991, recognised as a writer \"who through her magnificent epic writing has ... been of very great benefit to humanity\".\nGordimer was one of the most honoured female writers of her generation. She received the Booker Prize for The Conservationist (1974), and the Central News Agency Literary Award for The Conservationist, Burger's Daughter (1979) and July's People (1981).\nGordimer's writing dealt with moral and racial issues, particularly apartheid in South Africa. Under that regime, works such as Burger's Daughter were banned. She was active in the anti-apartheid movement, joining the African National Congress during the days when the organisation was banned, and gave Nelson Mandela advice on his famous 1964 defence speech at the trial which led to his conviction for life. She later became active in HIV/AIDS causes.",
+    "biography": "Nadine Gordimer (20 November 1923 – 13 July 2014) was a South African writer and political activist. She received the Nobel Prize in Literature in 1991, recognised as a writer \"who through her magnificent epic writing has ... been of very great benefit to humanity\".\nGordimer was one of the most honoured female writers of her generation. She received the Booker Prize for The Conservationist (1974), and the Central News Agency Literary Award for The Conservationist, Burger's Daughter (1979) and July's People (1981).\nGordimer's writing dealt with moral and racial issues, particularly apartheid in South Africa. Under that regime, works such as Burger's Daughter were banned. She was active in the anti-apartheid movement, joining the African National Congress during the days when the organisation was banned, and gave Nelson Mandela advice on his famous 1964 defence speech at the trial which led to his conviction for life. She later became active in HIV/AIDS causes.\n\n",
     "fields": [
       "Literature (Nobel 1991)"
     ],
@@ -1519,27 +1549,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/668",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1991)",
         "url": "https://www.nobelprize.org/prizes/literature/1991/gordimer/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nadine_Gordimer",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q47619",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Narges Mohammadi",
     "birth_date": "",
     "death_date": "",
-    "biography": "Narges Mohammadi (Persian: نرگس محمدی; born 21 April 1972) is an Iranian human rights activist and Nobel Peace Prize laureate. Between 1998 and October 2023, Mohammadi was arrested 13 times and sentenced to 31 years in prison and 154 lashes. She has been the recipient of many human rights awards. In October 2023, while in prison, she was awarded the 2023 Nobel Peace Prize \"for her fight against the oppression of women in Iran and her fight to promote human rights and freedom for all\".\n\n",
+    "biography": "Narges Mohammadi (Persian: نرگس محمدی; born 21 April 1972) is an Iranian human rights activist and Nobel Peace Prize laureate. Between 1998 and October 2023, Mohammadi was arrested 13 times and sentenced to 31 years in prison and 154 lashes. She has been the recipient of many human rights awards. In October 2023, while in prison, she was awarded the 2023 Nobel Peace Prize \"for her fight against the oppression of women in Iran and her fight to promote human rights and freedom for all\".",
     "fields": [
       "Peace & Activism (Nobel 2023)"
     ],
@@ -1549,51 +1579,81 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/1033",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2023)",
         "url": "https://www.nobelprize.org/prizes/peace/2023/mohammadi/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Narges_Mohammadi",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q4967771",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
+  },
+  {
+    "name": "Navi Pillay",
+    "birth_date": "",
+    "death_date": "",
+    "biography": "Navanetham \"Navi\" Pillay (Tamil: நவநீதம் பிள்ளை; née Naidoo; born 23 September 1941) is a South African jurist who served as the United Nations High Commissioner for Human Rights from 2008 to 2014. A South African of Tamil origin, Pillay was the first non-white female judge of the High Court of South Africa. She has also served as a judge of the International Criminal Court and president of the International Criminal Tribunal for Rwanda. She was awarded the Nobel Peace Prize in 2026 for her efforts to promote peace and international law.\nPillay was born and raised in Durban, where she later attended the University of Natal, receiving her Bachelor of Arts in 1963 and her Bachelor of Laws in 1965. After university, Pillay pursued a career as an attorney, joining the legal defence against apartheid. In 1967, Pillay started her own law firm and became the first woman to do so in her home province of Natal. In 1981, Pillay attended Harvard University and earned her Master of Law. In 1988, she completed her thesis and graduated from Harvard Law School with a Doctorate of Juridical Science.\nPillay was nominated and confirmed to the High Court of South Africa by the Judicial Service Commission under supervision of the bar association in 1995. In 1995, President Nelson Mandela and Justice Minister Dullah Omar nominated Pillay to the U.N. Security Council for a judgeship on the International Criminal Tribunal for Rwanda (ICTR). Between 1999 and 2003, Pillay served on the ICTR, and was elected President Judge. In 2003, the Assembly of States Parties to the Rome Statute of the International Criminal Court (ICC) elected her as a judge in the ICC, where she served as member of the Appeals Chamber until 2008. In 2008, with the approval of the United Nations General Assembly, Secretary-General Ban Ki-moon appointed Pillay the UN High Commissioner for Human Rights.\nShe was also the chair of the UN Independent International Commission of Inquiry on the Occupied Palestinian Territory. Pillay has been serving as an ad hoc judge on the International Court of Justice's Rohingya genocide case (The Gambia v. Myanmar) for crimes of genocide since 2019.",
+    "fields": [
+      "Peace & Activism (Nobel 2026)"
+    ],
+    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Navi_Pillay_June_2014.jpg/500px-Navi_Pillay_June_2014.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "image_credit": "Image: Wikipedia / Wikimedia Commons",
+    "sources": [
+      {
+        "name": "Nobel Prize API",
+        "url": "https://api.nobelprize.org/2.1/laureate/1068",
+        "accessed": "2026-10-12"
+      },
+      {
+        "name": "Nobel Prize in Peace & Activism (2026)",
+        "url": "https://www.nobelprize.org/prizes/peace/2026/pillay/facts/",
+        "accessed": "2026-10-12"
+      },
+      {
+        "name": "Wikipedia",
+        "url": "https://en.wikipedia.org/wiki/Navi_Pillay",
+        "accessed": "2026-10-12"
+      }
+    ],
+    "wikidata_id": "Q242078",
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Nelly Sachs",
     "birth_date": "",
     "death_date": "",
-    "biography": "Nobel Prize in Literature (1966): for her outstanding lyrical and dramatic writing, which interprets Israel's destiny with touching strength",
+    "biography": "Nelly Sachs (German pronunciation: [ˈnɛli zaks] ; 10 December 1891 – 12 May 1970) was a German–Swedish poet and playwright. Her experiences resulting from the rise of the Nazis in World War II Europe transformed her into a poignant spokesperson for the grief and yearnings of her fellow Jews. Her best-known play is Eli: Ein Mysterienspiel vom Leiden Israels (1950) (lit: Eli: A Mystery Play of Israel's Suffering); other works include the poems \"Zeichen im Sand\" (1962), \"Verzauberung\" (1970), and the collections of poetry In den Wohnungen des Todes (1947), Flucht und Verwandlung (1959), Fahrt ins Staublose (1961), and Suche nach Lebenden (1971). In 1966, she shared the Nobel Prize in Literature with the novelist, poet, and short-story writer Shmuel Yosef Agnon.\n\n",
     "fields": [
       "Literature (Nobel 1966)"
     ],
-    "image": null,
-    "image_credit": "",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Nelly_Sachs_1966.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "image_credit": "Image: Wikipedia / Wikimedia Commons",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/640",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1966)",
         "url": "https://www.nobelprize.org/prizes/literature/1966/sachs/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Nelly_Sachs",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q57074",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Olga Tokarczuk",
@@ -1609,21 +1669,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/979",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2018)",
         "url": "https://www.nobelprize.org/prizes/literature/2018/tokarczuk/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Olga_Tokarczuk",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q254032",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Pearl Buck",
@@ -1639,21 +1699,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/610",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1938)",
         "url": "https://www.nobelprize.org/prizes/literature/1938/buck/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Pearl_S._Buck",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q80900",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Rigoberta Menchú Tum",
@@ -1669,27 +1729,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/554",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (1992)",
         "url": "https://www.nobelprize.org/prizes/peace/1992/tum/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Rigoberta_Menchú",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q188620",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Rita Levi-Montalcini",
     "birth_date": "",
     "death_date": "",
-    "biography": "Rita Levi-Montalcini  (born Rita Levi; 22 April 1909 – 30 December 2012) was an Italian neurobiologist. She was awarded the 1986 Nobel Prize in Physiology or Medicine jointly with colleague Stanley Cohen for the discovery of nerve growth factor (NGF).\nFrom 2001 until her death, she also served in the Italian Senate as a senator for life. This honor was given due to her significant scientific contributions. On 22 April 2009, she became the first Nobel laureate to reach the age of 100, and the event was feted with a party at Rome's City Hall.",
+    "biography": "Rita Levi-Montalcini  (born Rita Levi; 22 April 1909 – 30 December 2012) was an Italian neurobiologist. She was awarded the 1986 Nobel Prize in Physiology or Medicine jointly with colleague Stanley Cohen for the discovery of nerve growth factor (NGF).\nFrom 2001 until her death, she also served in the Italian Senate as a senator for life. This honor was given due to her significant scientific contributions. On 22 April 2009, she became the first Nobel laureate to reach the age of 100, and the event was feted with a party at Rome's City Hall.\n\n",
     "fields": [
       "Physiology or Medicine (Nobel 1986)"
     ],
@@ -1699,21 +1759,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/435",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (1986)",
         "url": "https://www.nobelprize.org/prizes/medicine/1986/levi-montalcini/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Rita_Levi-Montalcini",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q185007",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Rosalyn Yalow",
@@ -1729,21 +1789,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/413",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (1977)",
         "url": "https://www.nobelprize.org/prizes/medicine/1977/yalow/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Rosalyn_Sussman_Yalow",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q107402",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Selma Lagerlöf",
@@ -1759,21 +1819,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/579",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1909)",
         "url": "https://www.nobelprize.org/prizes/literature/1909/lagerlof/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Selma_Lagerlöf",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q44519",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Shirin Ebadi",
@@ -1789,21 +1849,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/773",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2003)",
         "url": "https://www.nobelprize.org/prizes/peace/2003/ebadi/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Shirin_Ebadi",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q131152",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Sigrid Undset",
@@ -1819,27 +1879,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/601",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1928)",
         "url": "https://www.nobelprize.org/prizes/literature/1928/undset/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Sigrid_Undset",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q80889",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Svetlana Alexievich",
     "birth_date": "",
     "death_date": "",
-    "biography": "Svetlana Alexandrovna Alexievich (born 31 May 1948) is a Belarusian author, investigative journalist, and oral historian who writes in Russian. She was awarded the 2015 Nobel Prize in Literature \"for her polyphonic writings, a monument to suffering and courage in our time\". She is the first writer from Belarus to receive the award.\n\n",
+    "biography": "Svetlana Alexandrovna Alexievich (born 31 May 1948) is a Belarusian author, investigative journalist, and oral historian who writes in Russian. She was awarded the 2015 Nobel Prize in Literature \"for her polyphonic writings, a monument to suffering and courage in our time\". She is the first writer from Belarus to receive the award.",
     "fields": [
       "Literature (Nobel 2015)"
     ],
@@ -1849,27 +1909,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/924",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (2015)",
         "url": "https://www.nobelprize.org/prizes/literature/2015/alexievich/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Svetlana_Alexievich",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q274334",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Tawakkol Karman",
     "birth_date": "",
     "death_date": "",
-    "biography": "Tawakkol Abdel-Salam Khalid Karman (Arabic: توكل عبد السلام خالد كرمان, romanized: Tawakkul 'Abd us-Salām Khālid Karmān; Turkish: Tevekkül Karman; born 7 February 1979) is a Yemeni journalist, politician, and human rights activist. She co-founded and leads 'Women Journalists Without Chains', a group established in 2005 to advocate for press freedom and human rights. She became the international public face of the 2011 Yemeni uprising that was part of the Arab Spring movement. She was often referred as the 'Iron Woman' and the 'Mother of the Revolution\" in Yemen. She is a co-recipient of the 2011 Nobel Peace Prize for \"non-violent struggle for the safety of women and for women's rights to full participation in peace-building work\". She became the first Yemeni, the first Arab woman, and the second Muslim woman to win a Nobel Prize.\nKarman gained prominence in Yemen after 2005 as a Yemeni journalist and an advocate for press freedom, particularly following the denial of a license for a mobile phone news service in 2007, after which she led protests. After May 2007, she organized weekly protests advocating for broader reforms in Yemen. In early 2011, she shifted the protests to align with the broader Arab Spring movement, inspired by the Tunisian revolution that overthrew the government of Zine El Abidine Ben Ali. She was a vocal opponent who called for the end of President Ali Abdullah Saleh's government.\n\n",
+    "biography": "Tawakkol Abdel-Salam Khalid Karman (Arabic: توكل عبد السلام خالد كرمان, romanized: Tawakkul 'Abd us-Salām Khālid Karmān; Turkish: Tevekkül Karman; born 7 February 1979) is a Yemeni journalist, politician, and human rights activist. She co-founded and leads 'Women Journalists Without Chains', a group established in 2005 to advocate for press freedom and human rights. She became the international public face of the 2011 Yemeni uprising that was part of the Arab Spring movement. She was often referred as the 'Iron Woman' and the 'Mother of the Revolution\" in Yemen. She is a co-recipient of the 2011 Nobel Peace Prize for \"non-violent struggle for the safety of women and for women's rights to full participation in peace-building work\". She became the first Yemeni, the first Arab woman, and the second Muslim woman to win a Nobel Prize.\nKarman gained prominence in Yemen after 2005 as a Yemeni journalist and an advocate for press freedom, particularly following the denial of a license for a mobile phone news service in 2007, after which she led protests. After May 2007, she organized weekly protests advocating for broader reforms in Yemen. In early 2011, she shifted the protests to align with the broader Arab Spring movement, inspired by the Tunisian revolution that overthrew the government of Zine El Abidine Ben Ali. She was a vocal opponent who called for the end of President Ali Abdullah Saleh's government.",
     "fields": [
       "Peace & Activism (Nobel 2011)"
     ],
@@ -1879,27 +1939,27 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/871",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2011)",
         "url": "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Tawakkol_Karman",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q104622",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Toni Morrison",
     "birth_date": "",
     "death_date": "",
-    "biography": "Chloe Anthony Wofford \"Toni\" Morrison (born Chloe Ardelia Wofford; February 18, 1931 – August 5, 2019) was an American novelist and editor. She was awarded the Nobel Prize in Literature in 1993. Her first novel, The Bluest Eye, was published in 1970. The critically acclaimed Song of Solomon (1977) brought her national attention and won the National Book Critics Circle Award. In 1988, Morrison won the Pulitzer Prize for Beloved (1987). Some of her other notable works include Sula (1973) and the short story \"Recitatif\" (1983).\nBorn and raised in Lorain, Ohio, Morrison graduated from Howard University in 1953 with a B.A. in English. Morrison earned a master's degree in American Literature from Cornell University in 1955. In 1957 she returned to Howard University, was married, and had two children before divorcing in 1964. Morrison became the first Black female editor for fiction at Random House in New York City in the late 1960s. She developed her own reputation as an author in the 1970s and '80s. Her novel Beloved was made into a film in 1998. Morrison's works are praised for addressing the harsh consequences of racism in the United States and the Black American experience.\nThe National Endowment for the Humanities selected Morrison for the Jefferson Lecture, the U.S. federal government's highest honor for achievement in the humanities, in 1996. She was honored with the National Book Foundation's Medal of Distinguished Contribution to American Letters the same year. President Barack Obama presented her with the Presidential Medal of Freedom on May 29, 2012. She received the PEN/Saul Bellow Award for Achievement in American Fiction in 2016. Morrison was inducted into the National Women's Hall of Fame in 2020.",
+    "biography": "Chloe Anthony Wofford \"Toni\" Morrison (born Chloe Ardelia Wofford; February 18, 1931 – August 5, 2019) was an American novelist and editor. She was awarded the Nobel Prize in Literature in 1993. Her first novel, The Bluest Eye, was published in 1970. The critically acclaimed Song of Solomon (1977) brought her national attention and won the National Book Critics Circle Award. In 1988, Morrison won the Pulitzer Prize for Beloved (1987). Some of her other works include Sula (1973) and the short story \"Recitatif\" (1983).\nBorn and raised in Lorain, Ohio, Morrison graduated from Howard University in 1953 with a B.A. in English. Morrison earned a master's degree in American Literature from Cornell University in 1955. In 1957 she returned to Howard University, was married, and had two children before divorcing in 1964. Morrison became the first Black female editor for fiction at Random House in New York City in the late 1960s. She developed her own reputation as an author in the 1970s and '80s. Her novel Beloved was made into a film in 1998. Morrison's works are praised for addressing the harsh consequences of racism in the United States and the Black American experience.\nThe National Endowment for the Humanities selected Morrison for the Jefferson Lecture, the U.S. federal government's highest honor for achievement in the humanities, in 1996. She was honored with the National Book Foundation's Medal of Distinguished Contribution to American Letters the same year. President Barack Obama presented her with the Presidential Medal of Freedom on May 29, 2012. She received the PEN/Saul Bellow Award for Achievement in American Fiction in 2016. Morrison was inducted into the National Women's Hall of Fame in 2020.\n\n",
     "fields": [
       "Literature (Nobel 1993)"
     ],
@@ -1909,51 +1969,51 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/670",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1993)",
         "url": "https://www.nobelprize.org/prizes/literature/1993/morrison/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Toni_Morrison",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q72334",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Tu Youyou",
     "birth_date": "",
     "death_date": "",
-    "biography": "Tu Youyou (Chinese: 屠呦呦; pinyin: Tú Yōuyōu; born 30 December 1930) is a Nobel Prize-winning Chinese pharmaceutical chemist. She discovered artemisinin (also known as qīnghāosù, 青蒿素) and dihydroartemisinin, used to treat malaria; these discoveries were a breakthrough in twentieth-century tropical medicine, saving millions of lives in South China, Southeast Asia, Africa, and South America. Tu was born, educated and carried out her research exclusively in China.\nFor her work, Tu received the 2011 Lasker Award in clinical medicine and the 2015 Nobel Prize in Physiology or Medicine jointly with William C. Campbell and Satoshi Ōmura. Tu is the first Chinese Nobel laureate in Physiology or Medicine and the first female citizen of the People's Republic of China to receive a Nobel Prize in any category. She is also the first Chinese person to receive the Lasker Award.\nTu was bestowed the Medal of the Republic, the highest honorary medal of the People's Republic of China, in September 2019.",
+    "biography": "Nobel Prize in Physiology or Medicine (2015): for her discoveries concerning a novel therapy against Malaria",
     "fields": [
       "Physiology or Medicine (Nobel 2015)"
     ],
-    "image": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/D810_4987_Tu_Youyou%2C_medicine_%2822945001843%29_%28cropped%29.jpg/500px-D810_4987_Tu_Youyou%2C_medicine_%2822945001843%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "image_credit": "Image: Wikipedia / Wikimedia Commons",
+    "image": null,
+    "image_credit": "",
     "sources": [
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/918",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Physiology or Medicine (2015)",
         "url": "https://www.nobelprize.org/prizes/medicine/2015/tu/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Tu_Youyou",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q462843",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Wangari Maathai",
@@ -1969,21 +2029,21 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/783",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Peace & Activism (2004)",
         "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Wangari_Maathai",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q46795",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   },
   {
     "name": "Wisława Szymborska",
@@ -1999,20 +2059,20 @@
       {
         "name": "Nobel Prize API",
         "url": "https://api.nobelprize.org/2.1/laureate/673",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Nobel Prize in Literature (1996)",
         "url": "https://www.nobelprize.org/prizes/literature/1996/szymborska/facts/",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       },
       {
         "name": "Wikipedia",
         "url": "https://en.wikipedia.org/wiki/Wisława_Szymborska",
-        "accessed": "2026-10-05"
+        "accessed": "2026-10-12"
       }
     ],
     "wikidata_id": "Q42552",
-    "last_updated": "2026-10-05"
+    "last_updated": "2026-10-12"
   }
 ]
